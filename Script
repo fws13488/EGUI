@@ -1,0 +1,403 @@
+local _0101000001000101010001110101010101001001EGUIMADEBYx4ex4fx4fx42x31x39x36x38x35x31x35ME = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TurnOffButton = Instance.new("TextButton")
+local Buttons = Instance.new("Frame")
+local Main_2 = Instance.new("TextButton")
+local Player = Instance.new("TextButton")
+local MainFrames = Instance.new("Frame")
+local Main_3 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Player_2 = Instance.new("Frame")
+local WalkSpeed = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local InputBox = Instance.new("TextBox")
+local JumpHeight = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local InputBox_2 = Instance.new("TextBox")
+local OPENBUTTON = Instance.new("TextButton")
+
+_0101000001000101010001110101010101001001EGUIMADEBYx4ex4fx4fx42x31x39x36x38x35x31x35ME.Name = "0101000001000101010001110101010101001001EGUIMADEBY\\x4e\\x4f\\x4f\\x42\\x31\\x39\\x36\\x38\\x35\\x31\\x35(ME):)"
+_0101000001000101010001110101010101001001EGUIMADEBYx4ex4fx4fx42x31x39x36x38x35x31x35ME.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+_0101000001000101010001110101010101001001EGUIMADEBYx4ex4fx4fx42x31x39x36x38x35x31x35ME.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = _0101000001000101010001110101010101001001EGUIMADEBYx4ex4fx4fx42x31x39x36x38x35x31x35ME
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Main.BorderSizePixel = 7
+Main.Position = UDim2.new(0.324031919, 0, 0.315140873, 0)
+Main.Size = UDim2.new(0, 519, 0, 330)
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel.BorderSizePixel = 7
+TextLabel.Size = UDim2.new(1, 0, 0.0727272704, 0)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "Exploit UI | UPDATE 1"
+TextLabel.TextColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+TurnOffButton.Name = "TurnOffButton"
+TurnOffButton.Parent = Main
+TurnOffButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TurnOffButton.BackgroundTransparency = 1.000
+TurnOffButton.Position = UDim2.new(0.92485559, 0, 0, 0)
+TurnOffButton.Size = UDim2.new(0, 24, 0, 24)
+TurnOffButton.Font = Enum.Font.Cartoon
+TurnOffButton.Text = "-"
+TurnOffButton.TextColor3 = Color3.fromRGB(163, 163, 163)
+TurnOffButton.TextScaled = true
+TurnOffButton.TextSize = 14.000
+TurnOffButton.TextWrapped = true
+
+Buttons.Name = "Buttons"
+Buttons.Parent = Main
+Buttons.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Buttons.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Buttons.BorderSizePixel = 7
+Buttons.Position = UDim2.new(0, 0, 0.0969696939, 0)
+Buttons.Size = UDim2.new(0, 90, 0, 298)
+
+Main_2.Name = "Main"
+Main_2.Parent = Buttons
+Main_2.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+Main_2.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Main_2.BorderSizePixel = 7
+Main_2.Selectable = false
+Main_2.Size = UDim2.new(1, 0, 0.100671142, 0)
+Main_2.Font = Enum.Font.Cartoon
+Main_2.Text = "MAIN"
+Main_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Main_2.TextScaled = true
+Main_2.TextWrapped = true
+
+Player.Name = "Player"
+Player.Parent = Buttons
+Player.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+Player.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Player.BorderSizePixel = 7
+Player.Position = UDim2.new(0, 0, 0.100671142, 0)
+Player.Selectable = false
+Player.Size = UDim2.new(1, 0, 0.100671142, 0)
+Player.Font = Enum.Font.Cartoon
+Player.Text = "PLAYER"
+Player.TextColor3 = Color3.fromRGB(255, 255, 255)
+Player.TextScaled = true
+Player.TextWrapped = true
+
+MainFrames.Name = "MainFrames"
+MainFrames.Parent = Main
+MainFrames.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainFrames.BorderColor3 = Color3.fromRGB(163, 163, 163)
+MainFrames.BorderSizePixel = 7
+MainFrames.Position = UDim2.new(0.186897874, 0, 0.0969696939, 0)
+MainFrames.Size = UDim2.new(0, 422, 0, 298)
+
+Main_3.Name = "Main"
+Main_3.Parent = MainFrames
+Main_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main_3.Size = UDim2.new(1, 0, 1, 0)
+
+TextLabel_2.Parent = Main_3
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_2.Font = Enum.Font.Cartoon
+TextLabel_2.Text = "Coming Soon!!!"
+TextLabel_2.TextColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Player_2.Name = "Player"
+Player_2.Parent = MainFrames
+Player_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Player_2.Size = UDim2.new(1, 0, 1, 0)
+Player_2.Visible = false
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = Player_2
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeed.BackgroundTransparency = 1.000
+WalkSpeed.BorderSizePixel = 0
+WalkSpeed.Size = UDim2.new(0, 425, 0, 45)
+
+TextLabel_3.Parent = WalkSpeed
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0.842352927, 0, 1, 0)
+TextLabel_3.Font = Enum.Font.Cartoon
+TextLabel_3.Text = "WalkSpeed (Basic is 16)"
+TextLabel_3.TextColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+InputBox.Name = "InputBox"
+InputBox.Parent = WalkSpeed
+InputBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InputBox.BorderSizePixel = 0
+InputBox.Position = UDim2.new(0.861176491, 0, 0.155555546, 0)
+InputBox.Size = UDim2.new(-0.374117494, 200, 0.688888907, 0)
+InputBox.Font = Enum.Font.Cartoon
+InputBox.PlaceholderText = "16"
+InputBox.Text = "16"
+InputBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+InputBox.TextScaled = true
+InputBox.TextSize = 14.000
+InputBox.TextWrapped = true
+
+JumpHeight.Name = "JumpHeight"
+JumpHeight.Parent = Player_2
+JumpHeight.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumpHeight.BackgroundTransparency = 1.000
+JumpHeight.BorderSizePixel = 0
+JumpHeight.Position = UDim2.new(0, 0, 0.127516776, 0)
+JumpHeight.Size = UDim2.new(0, 425, 0, 45)
+
+TextLabel_4.Parent = JumpHeight
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Size = UDim2.new(0.842352927, 0, 1, 0)
+TextLabel_4.Font = Enum.Font.Cartoon
+TextLabel_4.Text = "JumpHeight (Basic is 7.2)"
+TextLabel_4.TextColor3 = Color3.fromRGB(163, 163, 163)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+InputBox_2.Name = "InputBox"
+InputBox_2.Parent = JumpHeight
+InputBox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InputBox_2.BorderSizePixel = 0
+InputBox_2.Position = UDim2.new(0.861176491, 0, 0.155555546, 0)
+InputBox_2.Size = UDim2.new(-0.374117494, 200, 0.688888907, 0)
+InputBox_2.Font = Enum.Font.Cartoon
+InputBox_2.PlaceholderText = "7.2"
+InputBox_2.Text = "7.2"
+InputBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+InputBox_2.TextScaled = true
+InputBox_2.TextSize = 14.000
+InputBox_2.TextWrapped = true
+
+OPENBUTTON.Name = "OPENBUTTON"
+OPENBUTTON.Parent = _0101000001000101010001110101010101001001EGUIMADEBYx4ex4fx4fx42x31x39x36x38x35x31x35ME
+OPENBUTTON.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+OPENBUTTON.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OPENBUTTON.BorderSizePixel = 5
+OPENBUTTON.Position = UDim2.new(0.09834373, 0, 0.280334771, 0)
+OPENBUTTON.Size = UDim2.new(0.0668918937, 0, 0.141840994, 0)
+OPENBUTTON.Font = Enum.Font.Cartoon
+OPENBUTTON.Text = "OPEN EXPLOIT UI"
+OPENBUTTON.TextColor3 = Color3.fromRGB(255, 255, 255)
+OPENBUTTON.TextScaled = true
+OPENBUTTON.TextSize = 14.000
+OPENBUTTON.TextWrapped = true
+
+local function IJYFHO_fake_script() -- TurnOffButton.CLOSE 
+	local script = Instance.new('LocalScript', TurnOffButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		script.Parent.Parent.Visible = false
+	
+		script.Parent.Parent.Parent.OPENBUTTON.Visible = true
+	
+	end)
+end
+coroutine.wrap(IJYFHO_fake_script)()
+local function IICKBZ_fake_script() -- Main.InvisibleScript 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.Visible = false
+end
+coroutine.wrap(IICKBZ_fake_script)()
+local function JRGWVL_fake_script() -- Main_2.LocalScript 
+	local script = Instance.new('LocalScript', Main_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		for i, v in ipairs(script.Parent.Parent.Parent.MainFrames:GetChildren()) do
+	
+			if v.Name == script.Parent.Name then
+	
+				v.Visible = true
+	
+			else
+	
+				v.Visible = false
+	
+			end
+	
+		end
+	
+	end)
+end
+coroutine.wrap(JRGWVL_fake_script)()
+local function PWJHXZI_fake_script() -- Player.LocalScript 
+	local script = Instance.new('LocalScript', Player)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		for i, v in ipairs(script.Parent.Parent.Parent.MainFrames:GetChildren()) do
+	
+			if v.Name == script.Parent.Name then
+	
+				v.Visible = true
+	
+			else
+	
+				v.Visible = false
+	
+			end
+	
+		end
+	
+	end)
+end
+coroutine.wrap(PWJHXZI_fake_script)()
+local function QQNTLNM_fake_script() -- InputBox.LocalScript 
+	local script = Instance.new('LocalScript', InputBox)
+
+	while wait() do
+	
+		if script.Parent and script.Parent.Text then
+	
+			if script.Parent.Text ~= nil or script.Parent.Text ~= "" or script.Parent.Text ~= " " or script.Parent.Text ~= "--" then
+	
+				local success, errorMsg = pcall(function()
+	
+					game.Players.LocalPlayer.Character:WaitForChild("Humanoid").WalkSpeed = script.Parent.Text
+	
+					if game.Players.LocalPlayer.Character:WaitForChild("Humanoid").WalkSpeed == 0 then
+	
+						game.Players.LocalPlayer.Character:WaitForChild("Humanoid").WalkSpeed = 16
+	
+					end
+	
+				end)
+	
+				if not success then
+	
+					game.Players.LocalPlayer.Character:WaitForChild("Humanoid").WalkSpeed = 16
+	
+				end
+	
+			else
+	
+				game.Players.LocalPlayer.Character:WaitForChild("Humanoid").WalkSpeed = 16
+	
+			end
+	
+		else
+	
+			game.Players.LocalPlayer.Character:WaitForChild("Humanoid").WalkSpeed = 16
+	
+		end
+	
+	end
+end
+coroutine.wrap(QQNTLNM_fake_script)()
+local function TZOHJ_fake_script() -- InputBox_2.LocalScript 
+	local script = Instance.new('LocalScript', InputBox_2)
+
+	while wait() do
+	
+		if script.Parent and script.Parent.Text then
+	
+			if script.Parent.Text ~= nil or script.Parent.Text ~= "" or script.Parent.Text ~= " " or script.Parent.Text ~= "--" then
+	
+				local success, errorMsg = pcall(function()
+	
+					game.Players.LocalPlayer.Character:WaitForChild("Humanoid").JumpHeight = script.Parent.Text
+	
+					if game.Players.LocalPlayer.Character:WaitForChild("Humanoid").JumpHeight == 0 then
+	
+						game.Players.LocalPlayer.Character:WaitForChild("Humanoid").JumpHeight = 7.2
+	
+					end
+	
+				end)
+	
+				if not success then
+	
+					game.Players.LocalPlayer.Character:WaitForChild("Humanoid").JumpHeight = 7.2
+	
+				end
+	
+			else
+	
+				game.Players.LocalPlayer.Character:WaitForChild("Humanoid").JumpHeight = 7.2
+	
+			end
+	
+		else
+	
+			game.Players.LocalPlayer.Character:WaitForChild("Humanoid").JumpHeight = 7.2
+	
+		end
+	
+	end
+end
+coroutine.wrap(TZOHJ_fake_script)()
+local function MFHC_fake_script() -- Main.Draggable 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(MFHC_fake_script)()
+local function NZQQP_fake_script() -- OPENBUTTON.LocalScript 
+	local script = Instance.new('LocalScript', OPENBUTTON)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		if game.PlaceId == nil then
+	
+			game.Players.LocalPlayer:Kick("Invalid PlaceId: PlaceId is "..game.PlaceId)
+	
+		end
+	
+		script.Parent.Visible = false
+	
+		script.Parent.Parent.Main.Visible = true
+	
+	end)
+end
+coroutine.wrap(NZQQP_fake_script)()
+local function LUAOS_fake_script() -- OPENBUTTON.Draggable 
+	local script = Instance.new('LocalScript', OPENBUTTON)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(LUAOS_fake_script)()
+local function EZRMD_fake_script() -- _0101000001000101010001110101010101001001EGUIMADEBYx4ex4fx4fx42x31x39x36x38x35x31x35ME.Success 
+	local script = Instance.new('LocalScript', _0101000001000101010001110101010101001001EGUIMADEBYx4ex4fx4fx42x31x39x36x38x35x31x35ME)
+
+	local starterGui = game:GetService("StarterGui")
+	
+	if script.Parent then
+	
+		starterGui:SetCore("SendNotification", {
+	
+			Title = "Exploit UI",
+	
+			Text = "Loaded Exploit UI Successfully!",
+	
+			Icon = "http://www.roblox.com/asset/?id=2022095747",
+	
+			Duration = 5
+	
+		})
+	
+	end
+end
+coroutine.wrap(EZRMD_fake_script)()
